@@ -46,11 +46,12 @@ int::Square::getCols(){
 }
 
 void::Square::toString(){
+    printf("---------SQUARE---------\n");
     if ( this->filled == true){
-        printf("Square is Filled\n");
+        printf("Filled: YES\n");
     }
     else{
-        printf("Square is not filled\n");
+        printf("Filled: NO\n");
     }
     printf("Number of Rows: %i\n", this->rows);
     printf("Number of Rows: %i\n", this->columns);
